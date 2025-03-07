@@ -17,7 +17,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-# Function to extract text from PDF using fitz
+# Function to extract text from PDF using fitz- changes 
+#changes needed. check testing
 def extract_text_from_pdf(file_content):
     text = ''
     try:
